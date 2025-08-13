@@ -1,1 +1,1 @@
-hellogit
+Se carga prototipo de prueba.
