@@ -15,7 +15,7 @@
   "emulators": {
     "apphosting": {
       "port": 3000,
-      "rootDirectory": "./",
+      "rootDirectory": "./src",
       "startCommand": "npm run Stardev"
     },
     "ui": {
