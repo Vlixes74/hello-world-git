@@ -6,9 +6,6 @@
   "author": "Ulises Cortes Corona (VlixesCor)",
   "license": "ISC",
   "description": "",
-   "engines": {
-    "node": "22"
-  },
   "main": "src/server.js", 
   "scripts": {
     "simul": "firebase emulators:start",
