@@ -69,3 +69,5 @@ node_modules/
 .dataconnect
 # historial local
 .history/
+# archivos de subida
+src/uploads/*
