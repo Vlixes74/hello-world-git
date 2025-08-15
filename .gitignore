@@ -71,3 +71,4 @@ node_modules/
 .history/
 # archivos de subida
 src/uploads/*
+.github
