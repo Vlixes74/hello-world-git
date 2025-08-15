@@ -6,7 +6,7 @@
   "author": "Ulises Cortes Corona (VlixesCor)",
   "license": "ISC",
   "description": "",
-  "main": "./src/server.js", 
+  "main": "/src/server.js", 
   "scripts": {
     "simul": "firebase emulators:start",
     "deploy": "firebase deploy --only apphosting",
