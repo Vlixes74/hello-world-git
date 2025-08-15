@@ -1,7 +1,7 @@
 {
   "apphosting": {
     "backendId": "hello-world-git",
-    "rootDir": "/src",
+    "rootDir": "./",
     "ignore": [
       "node_modules",
       ".git",
@@ -15,7 +15,7 @@
   "emulators": {
     "apphosting": {
       "port": 3000,
-      "rootDirectory": "./src",
+      "rootDirectory": "./",
       "startCommand": "npm run Stardev"
     },
     "ui": {
