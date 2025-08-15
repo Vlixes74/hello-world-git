@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "keywords": [],
-  "author": "Ulises Cortes Corona (VlixesCor)",
+  "author": "Ulises Cortes Corona (VlixesCortes)",
   "license": "ISC",
   "description": "",
  "main": "./src/server.js",
