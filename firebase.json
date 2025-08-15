@@ -9,7 +9,7 @@
       "firebase-debug.*.log",
       ".history",
       "functions",
-      "./src/uploads/*"
+      "./uploads/*"
     ]
   },
   "emulators": {
