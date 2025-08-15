@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "keywords": [],
-  "author": "Ulises Cortes Corona (VlixesCor)",
+  "author": "Ulises Cortes Corona (VlixesCortes)",
   "license": "ISC",
   "description": "",
   "main": "./server.js", 
@@ -11,7 +11,7 @@
     "simul": "firebase emulators:start",
     "deploy": "firebase deploy --only apphosting",
     "start": "node server.js",
-    "Stardev": "nodemon server.js"
+    "Stardev": "nodemon ./server.js"
   },
   "dependencies": {
     "csv-parser": "^3.0.0",
