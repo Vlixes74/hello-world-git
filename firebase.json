@@ -1,7 +1,7 @@
 {
   "apphosting": {
-    "backendId": "hello-world-git",
-    "rootDir": "/src",
+    "backendId": "qr-loader-staged",
+    "rootDir": "./src",
     "ignore": [
       "node_modules",
       ".git",
