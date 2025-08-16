@@ -1,6 +1,6 @@
 {
   "apphosting": {
-    "backendId": "qr-loader-staged",
+    "backendId": "staged-qr-loader",
     "rootDir": "./",
     "ignore": [
       "node_modules",
