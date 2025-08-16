@@ -10,8 +10,8 @@
   "scripts": {
     "simul": "firebase emulators:start",
     "deploy": "firebase deploy --only apphosting",
-    "start": "node server.js",
-    "Stardev": "nodemon ./src/server.js"
+    "start": "node index.js",
+    "Stardev": "nodemon ./src/index.js"
   },
   "dependencies": {
     "csv-parser": "^3.0.0",
