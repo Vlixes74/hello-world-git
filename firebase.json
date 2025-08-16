@@ -1,7 +1,7 @@
 {
   "apphosting": {
     "backendId": "qr-loader-staged",
-    "rootDir": "./",
+    "rootDir": "/",
     "ignore": [
       "node_modules",
       ".git",
