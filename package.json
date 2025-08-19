@@ -6,12 +6,12 @@
   "author": "Ulises Cortes Corona (VlixesCortes)",
   "license": "ISC",
   "description": "",
-  "main": "./src/index.js",
+  "main": "server.js",
   "scripts": {
     "simul": "firebase emulators:start",
     "deploy": "firebase deploy --only apphosting",
     "start": "node index.js",
-    "Stardev": "nodemon ./src/index.js"
+    "Stardev": "nodemon ./server.js"
   },
   "dependencies": {
     "csv-parser": "^3.0.0",

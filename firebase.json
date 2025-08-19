@@ -9,13 +9,13 @@
       "firebase-debug.*.log",
       ".history",
       "functions",
-      "/src/uploads/*"
+      "/uploads/*"
     ]
   },
   "emulators": {
     "apphosting": {
       "port": 3000,
-      "rootDirectory": "./src",
+      "rootDirectory": "./",
       "startCommand": "npm run Stardev"
     },
     "ui": {
