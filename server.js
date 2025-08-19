@@ -6,8 +6,6 @@ import authRoutes from './routes/authRoutes.js';
 import uploadRoutes from './routes/uploadRoutes.js';
 import adminRoutes from './routes/adminRoutes.js'
 
-
-
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -47,11 +45,8 @@ app.use((err, req, res, next) => {
   console.error(err.stack);
   res.status(500).render('error', { error: err.message });
 });
-// Puerto
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`Servidor corriendo en http://localhost:${PORT}`));
-
-// Exportar la aplicación para Firebase
-module.exports = app;
-
-
+const PORT = process.env.PORT || 3000
+// Iniciar el servidor
+app.listen(PORT, () => {
+  console.log(`Servidor corriendo en http://localhost:${PORT}`);
+});
